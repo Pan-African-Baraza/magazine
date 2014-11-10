@@ -1,0 +1,50 @@
+section.interviews {
+  @include default-section-mobile();
+  clear: none;
+  float: none;
+
+  .headline > h2 {
+    margin-bottom: 5px;
+  }
+
+  @media(min-width: $screen-sm) { 
+	  border: none;
+    display: inline-block;
+    vertical-align:top;
+    width: 60%;
+	  padding-right: 0;
+
+    li {
+      float: left;
+
+      & + li {
+        margin-top: 20px;
+      }
+    }
+
+    article.headline {
+      & > a > figure {
+        height: 130px;
+        width: 210px;
+        float: left;
+        margin-right: 10px;
+        background-size: 100% 100%;
+      }
+
+      h1 {
+        margin-top: 0;
+      }
+
+      p {
+        margin-bottom: 0;
+      }
+
+      ul {
+        li + li {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,30 @@
+paginate: 20
+baseurl: /tabloides-sp
+paginate_path: "/noticias/page:num"
+name: Brasil de Fato
+markdown: redcarpet
+url: http://brasil-de-fato.github.io/tabloides-sp/
+asset_pipeline:
+  gzip: true
+sass:
+  style: :compressed
+collections:
+timezone: "America/Sao_Paulo"
+gems:
+  - jekyll-sitemap
+exclude:
+  - deploy
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - README.md
+  - bower_components
+  - node_modules
+  - package.json
+  - assets/less
+  - test
+  - Rakefile
+  - job_status.txt
+  - setup
+  - vendor 
+  - node/

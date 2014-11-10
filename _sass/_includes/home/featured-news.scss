@@ -1,0 +1,38 @@
+section.featured-news {
+  @include default-section-mobile();
+  @include section-article-mobile();
+
+  width: 100%;
+
+  & > p {
+    margin: 0;
+    padding-top: 1.2em;
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    clear: both;
+  }
+
+  @media (min-width: $screen-sm) {
+    float: left;
+    border-top: 0;
+    margin-bottom: 7px;
+    clear: both;
+    display: inline-block;
+	  width: 100%;
+	  padding-left: 0;
+	  padding-right: 0;
+
+    h2 {
+      margin: 0;
+    }
+	
+    figure {
+      float: none;
+      height: 190px;
+      max-width: 370px;
+      margin: 0;
+    }
+
+  }
+}

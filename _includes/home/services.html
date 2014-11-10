@@ -1,0 +1,15 @@
+{% assign our_health = site.our_health %}
+{% assign our_rights = site.our_rights %}
+{% assign reader_board = site.reader_board %}
+
+<section class='services'>
+  <article class='headline'>
+    {% include headline-text-over-image.html post=our_health %}
+  </article>
+  <article class='headline'>
+    {% include headline-text-over-image.html post=our_rights %}
+  </article>
+  <article class='headline'>
+    {% include headline-text-over-image.html post=reader_board %}
+  </article>
+</section>

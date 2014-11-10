@@ -1,0 +1,24 @@
+{% assign image_cover = include.post | find_image: 'hd' %}
+
+{% if include.thumbnail %}
+  {% assign image_cover = include.post | find_image: 'tiny' %}
+{% endif %}
+<article class="headline {{ include.layout  }}">
+  <a href="{{ site.baseurl }}{{ include.post.url }}">
+      <figure
+        style="background-image:url('{{ image_cover  }}');"
+        alt="Imagem para a noticia: {{ include.post.title }}">
+      </figure>
+    </a>
+  {% if include.hat %}
+  <h2>
+    {{ include.hat }}
+  </h2>
+  {% endif %}
+  <h1>
+    <a href="{{ site.baseurl  }}{{ include.post.url }}">{{ include.post.title }}</a>
+  </h1>
+  {% if include.support_line %}
+    <p class="support-line">{{ include.post.support_line}}</p>
+  {% endif %}
+</article>

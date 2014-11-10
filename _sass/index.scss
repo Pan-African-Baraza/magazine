@@ -1,0 +1,42 @@
+@import "_includes/mixins";
+@import "_includes/home";
+
+body > main.home {
+  display: block;
+}
+
+body > aside {
+	display:none;
+}
+
+h2.small {
+  font-size: 0.8em;
+}
+
+
+@media(min-width: $screen-md) {
+  body > main.home {
+    display: table;
+    vertical-align: top;
+    width: 75%;
+    padding: 0 15px;
+  }
+
+  body > main.home {
+    margin: 30px auto;
+  }
+}
+
+@media(max-width: $screen-sm) {
+  body > main.home {
+    width: 100%;
+  }
+}
+
+@media(min-width: $screen-big) {
+  body { 
+    main.home, main.post {
+      width: 55%;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{% assign recents = site.recent %}
+
+<section class="recent">
+  {% for post in recents %}
+  <article class="headline">
+    <h1>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h1>
+    <p class="support-line">{{ post.support_line | ellipsis: 150 }}</p>
+  </article>
+  {% endfor %}
+  <p class="more">
+  </p>
+</section>

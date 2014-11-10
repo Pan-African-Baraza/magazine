@@ -1,0 +1,10 @@
+section.services {
+  @include default-margin-articles();
+  @include section-article-mobile();
+
+  width: 100%;
+
+  h2.hat {
+    color: #336869;
+  }
+}

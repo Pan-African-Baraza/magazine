@@ -1,0 +1,22 @@
+@import "home/recent";
+@import "home/featured-news";
+@import "home/featured";
+@import "home/carousel";
+@import "home/interviews";
+@import "home/sections";
+@import "home/opinion";
+@import "home/services";
+@import "home/miscelaneous";
+
+body > main.home {
+  @include default-figure-images();
+  figure {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.box-a {
+  width: 32%;
+  float: left;
+}

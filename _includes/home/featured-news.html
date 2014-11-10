@@ -1,0 +1,12 @@
+{% assign posts = site.featured_news %}
+
+<section class="featured-news">
+  {% for post in posts | limit:3 %}
+    <article class='headline'>
+      {% include headline-text-over-image.html post=post %}
+    </article>
+  {% endfor %}
+  <p class="more">
+    <a href="{{ site.baseurl  }}/noticias">Mais noticiais...</a>
+  </p>
+</section>

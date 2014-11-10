@@ -1,0 +1,10 @@
+section.miscelaneous {
+  @include default-margin-articles();
+  @include section-article-mobile();
+
+  width: 100%;
+
+  h2.hat {
+    color: #845B7C;
+  }
+}

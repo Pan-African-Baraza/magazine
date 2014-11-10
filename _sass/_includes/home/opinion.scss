@@ -1,0 +1,23 @@
+section.opinion {
+
+  @include default-section-mobile();
+
+  .headline-text-over-image figure{
+    width: 100%;
+  }
+
+  @media(min-width: $screen-sm) {
+	  border: none;
+    float: right;
+    display: inline-block;
+    vertical-align:top;
+    width: 35%;
+	  padding-right: 0;
+    clear: left;
+
+    h1 {
+      margin-top: 0;
+    }
+
+  }
+}
