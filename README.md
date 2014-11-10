@@ -1,6 +1,6 @@
-MST site-novo
+Pan African Baraza magazine
 ===
-Projeto da TW Brasil em conjunto com MST e Brasil de Fato.
+Digital magazine for Pan-African Baraza
 
 ## Requirements
 * mysql >= 5.0
