@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://pan-african-baraza.github.io/magazine/sitemap.xml
