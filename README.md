@@ -11,7 +11,7 @@ Projeto da TW Brasil em conjunto com MST e Brasil de Fato.
 Clone the repository:
 
 ```
-git clone https://github.com/movimento-sem-terra/site-novo.git && cd site-novo
+git clone https://github.com/Pan-African-Baraza/magazine.git && cd magazine
 ```
 
 Run the setup script (it assumes you have a db user called "root"):
