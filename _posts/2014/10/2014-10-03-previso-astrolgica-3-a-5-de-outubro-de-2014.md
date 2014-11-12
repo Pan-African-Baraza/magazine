@@ -23,6 +23,7 @@ files:
     $$hashKey: "026"
 published: true
 images_hd: "http://farm4.staticflickr.com/3928/15429485712_facde7b4e1_n.jpg"
+menu: past
 
 ---
 <p><em>Por Titi Vidal, astr&oacute;loga | titividal.com.br</em></p>
