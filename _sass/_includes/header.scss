@@ -30,14 +30,14 @@ header {
 
 #site-header {
   background: $mstred;
-  background: #E31B23;
+  background: $mstred;
   padding: 0 0 10px 0;
   text-align: center;
   color: white;
 
 
   a, a:hover, a:visited {
-    color: black;
+    color: white;
     text-decoration: none;
     height: auto;
     margin-bottom: 5px;
@@ -62,7 +62,7 @@ header {
       a, a:hover, a:visited {
         padding: 10px 0px;
         display: block;
-        color: black;
+        color: #fff;
         
         &:hover {
           color: $gray-light;
@@ -134,7 +134,7 @@ ul.dropdown-menu {
     content: '\E055';
     text-indent: 0;
     font-size: 2.3em;
-    color: black;
+    color: white;
     float: left;
   }
 }
