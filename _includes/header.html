@@ -1,29 +1,21 @@
-{% assign printed = site.printed %}
 <header id="site-header">
   <a href="{{ site.baseurl }}/" id="logo">
     <img src='{{ site.baseurl }}/assets/img/logo.png'
-    alt='Imagem da capa'/>
+    alt='Cover Image'/>
   </a>
   
   <nav role="navigation">
-    <button id="open-menu">Abrir Menu</button>
+    <button id="open-menu">Open Menu</button>
     
     <ul id="main-menu">
-      <li><a href="{{ site.baseurl }}/sao-paulo">SÃO PAULO</a></li>
-      <li><a href="{{ site.baseurl }}/brasil">BRASIL</a></li>
-      <li><a href="{{ site.baseurl }}/mundo">MUNDO</a></li>
-      <li><a href="{{ site.baseurl }}/esporte">ESPORTE</a></li>
-      <li><a href="{{ site.baseurl }}/cultura">CULTURA</a></li>
-      <li><a href="{{ site.baseurl }}/opiniao">OPINIÃO</a></li>
-      <li><a href="{{ site.baseurl }}/entrevistas">ENTREVISTAS</a></li>
-      <li><a href="{{ site.baseurl }}/servicos">SERVIÇOS</a></li>
-      {% if printed  %}
-        <li><a href="{{ site.baseurl }}/{{ printed.url }}">IMPRESSO</a></li>
-      {% endif %}
+      <li><a href="{{ site.baseurl }}/about-us">ABOUT US</a></li>
+      <li><a href="{{ site.baseurl }}/past">RECLAIMING THE PAST</a></li>
+      <li><a href="{{ site.baseurl }}/present">CONTESTING THE PRESENT</a></li>
+      <li><a href="{{ site.baseurl }}/future">REINVENTING THE FUTURE</a></li>
     </ul>
     
-    <button id="open-search">Abrir Busca</button>
+    <button id="open-search">Open Search</button>
 
-    {% ddg_search_form site:brasil-de-fato.github.io/tabloides-sp prefill:Pesquisar... %}
+    {% ddg_search_form site:pan-african-baraza.github.io/magazine prefill:Pesquisar... %}
   </nav>
 </header>
