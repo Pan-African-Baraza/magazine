@@ -3,7 +3,7 @@
   "name": "date",
   "pattern": "",
   "icon": "fa-calendar",
-  "title": "Data e hora da noticia",
+  "title": "Post date and hour",
   "required": true,
   "type": {
     "view": "date"
@@ -11,53 +11,49 @@
 },
 {
   "name": "hat",
-  "title": "Chapéu",
+  "title": "Hat",
   "required": false,
-  "placeholder": "Informe o chapéu",
+  "placeholder": "Enter the hat",
   "type": {
     "view": "textarea"
   }
 },
 {
   "name": "title",
-  "title": "Título da notícia",
+  "title": "Title",
   "required": true,
-  "placeholder": "Informe o título",
+  "placeholder": "Enter the title",
   "type": {
     "view": "textarea"
   }
 },
 {
   "name": "support_line",
-  "title": "Linha fina",
+  "title": "Support Line",
   "required": true,
-  "placeholder": "Informe a linha fina",
+  "placeholder": "Enter the support line",
   "type": {
     "view": "textarea"
   }
 },
-
 {
   "name": "section",
-  "title": "Sessão",
+  "title": "Session",
   "required": true,
   "type": {
     "view": "select",
     "options": [
-      {"name": "Notícia", "id": "news"},
-      {"name": "Destaque", "id": "featured"},
-      {"name": "Opinião", "id": "opinion"},
-      {"name": "Entrevista", "id": "interviews"},
-      {"name": "Serviços", "id": "services"},
-      {"name": "Variedades", "id": "miscelaneous"},
-      {"name": "Impresso", "id": "printed"}
+      {"name": "News", "id": "news"},
+      {"name": "Featured", "id": "featured"},
+      {"name": "Opinion", "id": "opinion"},
+      {"name": "Interviews", "id": "interviews"}
     ]
   }
 },
 {
   "name": "interviewd",
-  "title": "Entrevistado",
-  "placeholder": "Informe o nome do entrevistado",
+  "title": "Interviewd",
+  "placeholder": "Enter the interviwed name",
   "required": false,
   "type": {
     "view": "text"
@@ -70,76 +66,25 @@
 },
 {
   "name": "menu",
-  "title": "Editorias",
+  "title": "Editorials",
   "required": false,
   "type": {
     "view": "select",
     "options": [
-      {"id": "sp", "name": "São Paulo"},
-      {"id": "brazil", "name": "Brasil"},
-      {"id": "world", "name": "Mundo"},
-      {"id": "culture", "name": "Cultura"},
-      {"id": "sport", "name": "Esportes"},
-      {"id": "opinion", "name": "Opinião"},
-      {"id": "interviews", "name": "Entrevistas"},
-      {"id": "services", "name": "Servicos"}
+      {"id": "past", "name": "Reclaiming The Past"},
+      {"id": "present", "name": "Contesting The Present"},
+      {"id": "future", "name": "Reinventing the Future"}
     ]
-  },
-    "need": {
-    "field": "section",
-    "equal": false,
-    "value": "printed"
-  }
-},
-{
-  "name": "miscelaneous",
-  "title": "Variedades",
-  "required": false,
-  "type": {
-    "view": "select",
-    "options": [
-      {"name": "Horóscopo", "id": "horoscope"},
-      {"name": "Receita", "id": "recipe"},
-      {"name": "Agenda Cultural", "id": "cultural-agenda"}
-    ]
-  },
-    "need": {
-    "field": "section",
-    "equal": true,
-    "value": "miscelaneous"
-  }
-},
-{
-  "name": "service",
-  "title": "Serviços",
-  "required": false,
-  "type": {
-    "view": "select",
-    "options": [
-      {"name": "Nossa Saúde", "id": "our-health"},
-      {"name": "Nosso Direito", "id": "our-rights"},
-      {"name": "Mural do Leitor", "id": "reader-board"}
-    ]
-  },
-    "need": {
-    "field": "section",
-    "equal": true,
-    "value": "services"
   }
 },
 {
   "name": "images_hd",
   "pattern": "",
   "icon": "fa-picture-o",
-  "title": "Imagem de Capa",
+  "title": "Cover Image",
   "required": true,
   "type": {
     "view": "cover"
-  },
-  "need": {
-    "field": "section",
-    "equal": false,
-    "value": "opinion"
   }
 },
 {
