@@ -73,7 +73,7 @@
     "options": [
       {"id": "past", "name": "Reclaiming The Past"},
       {"id": "present", "name": "Contesting The Present"},
-      {"id": "future", "name": "Reinventing the Future"}
+      {"id": "future", "name": "Inventing the Future"}
     ]
   }
 },
