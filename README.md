@@ -1,5 +1,6 @@
 Pan African Baraza magazine
 ===
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Pan-African-Baraza/magazine?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Digital magazine for Pan-African Baraza
 
 ## Requirements
